@@ -1692,16 +1692,16 @@
 		(uuid "1ef936c9-3a82-4754-bd86-95ab46bd83f8")
 	)
 	(junction
-		(at 152.4 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34177fdf-a5e0-4804-83c6-d7ca2b3f2019")
-	)
-	(junction
 		(at 132.08 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c7b5b4d-93fe-4c64-a153-d96b45b9e213")
+		(uuid "663009f2-9753-4e65-b41d-de0522aabfd1")
+	)
+	(junction
+		(at 152.4 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f7e248d-0c6b-4481-9329-bbd1964734a6")
 	)
 	(junction
 		(at 132.08 54.61)
@@ -1713,7 +1713,7 @@
 		(at 111.76 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfa5d491-4c5f-4506-8682-f020f55d48b0")
+		(uuid "c6121827-5e71-4c55-9acd-3c7a7565890e")
 	)
 	(junction
 		(at 152.4 54.61)
@@ -1757,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1778cdfd-1dc9-4ff8-a6ff-18f864002caf")
+	)
+	(wire
+		(pts
 			(xy 132.08 62.23) (xy 132.08 63.5)
 		)
 		(stroke
@@ -1787,16 +1797,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 119.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f84447-4da9-4060-af8b-036ccab08b2b")
-	)
-	(wire
-		(pts
 			(xy 96.52 63.5) (xy 101.6 63.5)
 		)
 		(stroke
@@ -1804,6 +1804,16 @@
 			(type default)
 		)
 		(uuid "56da4ec8-8e7e-412f-a3f5-f16e870457a6")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d726f6d-be5d-4377-840c-a41f0f0d062f")
 	)
 	(wire
 		(pts
@@ -1827,16 +1837,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66da1c3e-24ac-4f89-9b41-697396986085")
-	)
-	(wire
-		(pts
 			(xy 91.44 63.5) (xy 96.52 63.5)
 		)
 		(stroke
@@ -1844,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "66fa5c71-0935-4fd8-bc2f-095da2b200e4")
+	)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84221d10-0de0-4c34-92e8-652cf1a7d128")
 	)
 	(wire
 		(pts
@@ -1864,16 +1874,6 @@
 			(type default)
 		)
 		(uuid "9038fa86-e6df-4d95-8498-3619fb4dbfd4")
-	)
-	(wire
-		(pts
-			(xy 152.4 63.5) (xy 132.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f4a128-64c0-4dc1-8e17-78162ebd1a6d")
 	)
 	(wire
 		(pts
@@ -1954,6 +1954,16 @@
 			(type default)
 		)
 		(uuid "e5c90d8b-c731-4e75-b41a-bb70aa208408")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed75da5d-eb71-406d-bccf-8b1324a27abe")
 	)
 	(symbol
 		(lib_id "power:AC")
@@ -2225,7 +2235,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4003")
-		(at 115.57 63.5 0)
+		(at 143.51 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2234,7 +2244,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c1b27c0-4349-42e7-8522-24888158aeb3")
 		(property "Reference" "D2"
-			(at 115.57 57.15 0)
+			(at 143.51 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2252,7 @@
 			)
 		)
 		(property "Value" "1N4003"
-			(at 115.57 59.69 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 115.57 67.945 0)
+			(at 143.51 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 115.57 63.5 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2278,7 @@
 			)
 		)
 		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
-			(at 115.57 63.5 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2287,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 115.57 63.5 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2296,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 63.5 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
