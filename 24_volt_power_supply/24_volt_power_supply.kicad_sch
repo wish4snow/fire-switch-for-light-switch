@@ -1934,6 +1934,12 @@
 		)
 	)
 	(junction
+		(at 54.61 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ac764c-7be1-4365-a90f-ea2062ad3144")
+	)
+	(junction
 		(at 96.52 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2238,6 +2244,16 @@
 			(type default)
 		)
 		(uuid "c1964d9e-5db2-45f3-9368-112d5bedb23e")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caca4a38-33a5-4fe3-bde1-0d0bca750a06")
 	)
 	(wire
 		(pts
@@ -2766,6 +2782,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 62.23 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bd67304-2251-4724-ac45-cb2b7f7ddad1")
+		(property "Reference" "#PWR07"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_PWR"
+			(at 62.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7683dd-0850-4e3e-9f47-9f085cca85a5")
+		)
+		(instances
+			(project ""
+				(path "/eaf29860-4e40-432e-ac69-de8d8ff44356"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 152.4 58.42 0)
 		(unit 1)
@@ -2922,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC"
+		(property "Value" "AC_PWR"
 			(at 208.28 93.98 0)
 			(effects
 				(font
