@@ -3158,7 +3158,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4003")
-		(at 166.37 62.23 0)
+		(at 166.37 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 166.37 66.675 0)
+			(at 166.37 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
