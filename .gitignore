@@ -118,4 +118,5 @@ fp-info-cache
 
 # directories
 ./schematics/schematics-backups
+./3d_models/case_files
 
